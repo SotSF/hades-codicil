@@ -239,9 +239,9 @@
     },
     "prereqs": []
   },
-  "Heartbreah Flourish": {
-    "id": "Heartbreah Flourish",
-    "name": "Heartbreah Flourish",
+  "Heartbreak Flourish": {
+    "id": "Heartbreak Flourish",
+    "name": "Heartbreak Flourish",
     "god": "Aphrodite",
     "description": "more damage and inflict weak (-30% attack for 4s)",
     "slot": "Special",
@@ -640,8 +640,8 @@
     "prereqs": []
   },
   "Zeus's Aid": {
-    "id": "Zeus's Aid",
-    "name": "Zeus's Aid",
+    "id": "Zeus' Aid",
+    "name": "Zeus' Aid",
     "god": "Zeus",
     "description": "lightning strikes nearby foes repeatedly for 1.5s (max 9s)",
     "slot": "Call",
@@ -704,8 +704,8 @@
     "prereqs": []
   },
   "Artemis's Aid": {
-    "id": "Artemis's Aid",
-    "name": "Artemis's Aid",
+    "id": "Artemis' Aid",
+    "name": "Artemis' Aid",
     "god": "Artemis",
     "description": "fire 1 unblockable seeking arrow (max 10) with +35% crit",
     "slot": "Call",
@@ -736,8 +736,8 @@
     "prereqs": []
   },
   "Dionysus's Aid": {
-    "id": "Dionysus's Aid",
-    "name": "Dionysus's Aid",
+    "id": "Dionysus' Aid",
+    "name": "Dionysus' Aid",
     "god": "Dionysus",
     "description": "inflict hangover to all foes around you for 1.5s (max 9s)",
     "slot": "Call",
@@ -1195,9 +1195,9 @@
     },
     "prereqs": []
   },
-  "Glacial Glare (C)": {
-    "id": "Glacial Glare (C)",
-    "name": "Glacial Glare (C)",
+  "Glacial Glare": {
+    "id": "Glacial Glare",
+    "name": "Glacial Glare",
     "god": "Demeter",
     "description": "your cast fires for a longer duration and inflicts chill",
     "slot": "",
@@ -1299,9 +1299,9 @@
     },
     "prereqs": []
   },
-  "Blown Kiss (C)": {
-    "id": "Blown Kiss (C)",
-    "name": "Blown Kiss (C)",
+  "Blown Kiss": {
+    "id": "Blown Kiss",
+    "name": "Blown Kiss",
     "god": "Aphrodite",
     "description": "your cast shoots farther and is stronger against undamaged foes",
     "slot": "",
@@ -1310,9 +1310,9 @@
     "rarityData": {},
     "prereqs": []
   },
-  "High Tolerance (C)": {
-    "id": "High Tolerance (C)",
-    "name": "High Tolerance (C)",
+  "High Tolerance": {
+    "id": "High Tolerance",
+    "name": "High Tolerance",
     "god": "Dionysus",
     "description": "take less damage while standing in festive fog",
     "slot": "",
@@ -1579,9 +1579,9 @@
     },
     "prereqs": []
   },
-  "Battle Rage (K)": {
-    "id": "Battle Rage (K)",
-    "name": "Battle Rage (K)",
+  "Battle Rage": {
+    "id": "Battle Rage",
+    "name": "Battle Rage",
     "god": "Ares",
     "description": "after slaying a foe, your next attack or special deals more damage",
     "slot": "",
@@ -1595,9 +1595,9 @@
     },
     "prereqs": []
   },
-  "Dying Lament (K)": {
-    "id": "Dying Lament (K)",
-    "name": "Dying Lament (K)",
+  "Dying Lament": {
+    "id": "Dying Lament",
+    "name": "Dying Lament",
     "god": "Aphrodite",
     "description": "when floes are slain, damage nearby foes and inflict weak",
     "slot": "",
@@ -2084,9 +2084,9 @@
     "rarityData": {},
     "prereqs": []
   },
-  "Black Out (C)": {
-    "id": "Black Out (C)",
-    "name": "Black Out (C)",
+  "Black Out": {
+    "id": "Black Out",
+    "name": "Black Out",
     "god": "Dionysus",
     "description": "hangover-afflicted foes take +100% bonus damage in festive fog",
     "slot": "",
