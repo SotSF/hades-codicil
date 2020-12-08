@@ -1,0 +1,2142 @@
+{
+  "Lightning Strike": {
+    "id": "Lightning Strike",
+    "name": "Lightning Strike",
+    "god": "Zeus",
+    "description": "emits chain-lightning (4) when you damage a foe",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "10",
+      "rare": "12.5",
+      "epic": "15",
+      "heroic": "20"
+    },
+    "prereqs": []
+  },
+  "Tempest Strike": {
+    "id": "Tempest Strike",
+    "name": "Tempest Strike",
+    "god": "Poseidon",
+    "description": "more damage and knock foes away",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+45%",
+      "epic": "+50%",
+      "heroic": "+75%"
+    },
+    "prereqs": []
+  },
+  "Divine Strike": {
+    "id": "Divine Strike",
+    "name": "Divine Strike",
+    "god": "Athena",
+    "description": "more damage and deflects",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+45%",
+      "epic": "+50%",
+      "heroic": "+75%"
+    },
+    "prereqs": []
+  },
+  "Curse of Agony": {
+    "id": "Curse of Agony",
+    "name": "Curse of Agony",
+    "god": "Ares",
+    "description": "inflicts doom (1.1s)",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "50",
+      "rare": "75",
+      "epic": "100",
+      "heroic": "125"
+    },
+    "prereqs": []
+  },
+  "Deadly Strike": {
+    "id": "Deadly Strike",
+    "name": "Deadly Strike",
+    "god": "Artemis",
+    "description": "more damage +15% chance to crit",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20%",
+      "rare": "+30%",
+      "epic": "+40%",
+      "heroic": "+50%"
+    },
+    "prereqs": []
+  },
+  "Heartbreak Strike": {
+    "id": "Heartbreak Strike",
+    "name": "Heartbreak Strike",
+    "god": "Aphrodite",
+    "description": "more damage and inflict weak (-30% attack for 4s)",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%",
+      "rare": "+75%",
+      "epic": "+100%",
+      "heroic": "+125%"
+    },
+    "prereqs": []
+  },
+  "Drunken Strike": {
+    "id": "Drunken Strike",
+    "name": "Drunken Strike",
+    "god": "Dionysus",
+    "description": "inflicts hangover (stack 5, damage every 0.5s for 4s)",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "4",
+      "rare": "5",
+      "epic": "6",
+      "heroic": "8"
+    },
+    "prereqs": []
+  },
+  "Frost Strike": {
+    "id": "Frost Strike",
+    "name": "Frost Strike",
+    "god": "Demeter",
+    "description": "more damage and chill (4% slow for 8s, stack 10)",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+40%",
+      "rare": "+60%",
+      "epic": "+80%",
+      "heroic": "+100%"
+    },
+    "prereqs": []
+  },
+  "Swift Strike": {
+    "id": "Swift Strike",
+    "name": "Swift Strike",
+    "god": "Hermes",
+    "description": "your attack is faster",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+12.5%",
+      "rare": "+21.25%",
+      "epic": "+30%",
+      "heroic": "+38.75%"
+    },
+    "prereqs": []
+  },
+  "Chaos Strike": {
+    "id": "Chaos Strike",
+    "name": "Chaos Strike",
+    "god": "Chaos",
+    "description": "your attack deals more damage",
+    "slot": "Attack",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15-25%",
+      "rare": "16-37.5%",
+      "epic": "24-50%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Thunder Flourish": {
+    "id": "Thunder Flourish",
+    "name": "Thunder Flourish",
+    "god": "Zeus",
+    "description": "causes a lightning bolt to strike nearby foes",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "30",
+      "rare": "37.5",
+      "epic": "45",
+      "heroic": "60"
+    },
+    "prereqs": []
+  },
+  "Tempest Flourish": {
+    "id": "Tempest Flourish",
+    "name": "Tempest Flourish",
+    "god": "Poseidon",
+    "description": "more damage and knock foes away",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+70%",
+      "rare": "+105%",
+      "epic": "+105%",
+      "heroic": "+175%"
+    },
+    "prereqs": []
+  },
+  "Divine Flourish": {
+    "id": "Divine Flourish",
+    "name": "Divine Flourish",
+    "god": "Athena",
+    "description": "more damage and deflects",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+60%",
+      "rare": "+90%",
+      "epic": "+120%",
+      "heroic": "+150%"
+    },
+    "prereqs": []
+  },
+  "Curse of Pain": {
+    "id": "Curse of Pain",
+    "name": "Curse of Pain",
+    "god": "Ares",
+    "description": "inflicts doom (1.1s)",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "60",
+      "rare": "80",
+      "epic": "100",
+      "heroic": "120"
+    },
+    "prereqs": []
+  },
+  "Deadly Flourish": {
+    "id": "Deadly Flourish",
+    "name": "Deadly Flourish",
+    "god": "Artemis",
+    "description": "more damage +20% chance to crit",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+40%",
+      "rare": "+60%",
+      "epic": "+80%",
+      "heroic": "+100%"
+    },
+    "prereqs": []
+  },
+  "Heartbreah Flourish": {
+    "id": "Heartbreah Flourish",
+    "name": "Heartbreah Flourish",
+    "god": "Aphrodite",
+    "description": "more damage and inflict weak (-30% attack for 4s)",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+80%",
+      "rare": "+120%",
+      "epic": "+160%",
+      "heroic": "+200%"
+    },
+    "prereqs": []
+  },
+  "Drunken Flourish": {
+    "id": "Drunken Flourish",
+    "name": "Drunken Flourish",
+    "god": "Dionysus",
+    "description": "inflicts hangover (stack 5, damage every 0.5s for 4s)",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "5",
+      "rare": "6",
+      "epic": "7",
+      "heroic": "8"
+    },
+    "prereqs": []
+  },
+  "Frost Flourish": {
+    "id": "Frost Flourish",
+    "name": "Frost Flourish",
+    "god": "Demeter",
+    "description": "more damage and chill (4% slow for 8s, stack 10)",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+60%",
+      "rare": "+90%",
+      "epic": "+120%",
+      "heroic": "+150%"
+    },
+    "prereqs": []
+  },
+  "Swift Flourish": {
+    "id": "Swift Flourish",
+    "name": "Swift Flourish",
+    "god": "Hermes",
+    "description": "your special is faster",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+12.5%",
+      "rare": "+21.25%",
+      "epic": "+30%",
+      "heroic": "+38.75%"
+    },
+    "prereqs": []
+  },
+  "Chaos Flourish": {
+    "id": "Chaos Flourish",
+    "name": "Chaos Flourish",
+    "god": "Chaos",
+    "description": "your special deals more damage",
+    "slot": "Special",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "20-35%",
+      "rare": "22-52.5%",
+      "epic": "32-70%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Electric Shot": {
+    "id": "Electric Shot",
+    "name": "Electric Shot",
+    "god": "Zeus",
+    "description": "burst of chain-lightning (5) that bounces between foes",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "60",
+      "rare": "72",
+      "epic": "84",
+      "heroic": "96"
+    },
+    "prereqs": []
+  },
+  "Flood Shot": {
+    "id": "Flood Shot",
+    "name": "Flood Shot",
+    "god": "Poseidon",
+    "description": "damages foes in an area and knocks them away",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "60",
+      "rare": "72",
+      "epic": "84",
+      "heroic": "96"
+    },
+    "prereqs": []
+  },
+  "Phalanx Shot": {
+    "id": "Phalanx Shot",
+    "name": "Phalanx Shot",
+    "god": "Athena",
+    "description": "damages foes in an area and deflects",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "85",
+      "rare": "102",
+      "epic": "119",
+      "heroic": "136"
+    },
+    "prereqs": []
+  },
+  "Slicing Shot": {
+    "id": "Slicing Shot",
+    "name": "Slicing Shot",
+    "god": "Ares",
+    "description": "sends a blade rift (damage every 0.1s for 4s)\r does not lodge into enemy",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "10",
+      "rare": "11",
+      "epic": "13",
+      "heroic": "14"
+    },
+    "prereqs": []
+  },
+  "True Shot": {
+    "id": "True Shot",
+    "name": "True Shot",
+    "god": "Artemis",
+    "description": "fire an unblockable seeking arrow with 10% crit chance",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "70",
+      "rare": "80",
+      "epic": "90",
+      "heroic": "100"
+    },
+    "prereqs": []
+  },
+  "Crush Shot": {
+    "id": "Crush Shot",
+    "name": "Crush Shot",
+    "god": "Aphrodite",
+    "description": "wide, short-range blast that inflicts weak",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "90",
+      "rare": "99",
+      "epic": "108",
+      "heroic": "117"
+    },
+    "prereqs": []
+  },
+  "Trippy Shot": {
+    "id": "Trippy Shot",
+    "name": "Trippy Shot",
+    "god": "Dionysus",
+    "description": "lobs a projectile that bursts into festive fog does not lodge into enemy",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "100",
+      "rare": "120",
+      "epic": "140",
+      "heroic": "160"
+    },
+    "prereqs": []
+  },
+  "Crystal Beam": {
+    "id": "Crystal Beam",
+    "name": "Crystal Beam",
+    "god": "Demeter",
+    "description": "crystal that fires a beam (damage every 0.2s for 5s) does not lodge into enemy",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "8",
+      "rare": "9.2",
+      "epic": "10.4",
+      "heroic": "11.6"
+    },
+    "prereqs": []
+  },
+  "Flurry Cast": {
+    "id": "Flurry Cast",
+    "name": "Flurry Cast",
+    "god": "Hermes",
+    "description": "your cast is faster and fully automatic",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20%",
+      "rare": "+40%",
+      "epic": "+60%",
+      "heroic": "+80%"
+    },
+    "prereqs": []
+  },
+  "Chaos Shot": {
+    "id": "Chaos Shot",
+    "name": "Chaos Shot",
+    "god": "Chaos",
+    "description": "your cast deals more damage",
+    "slot": "Cast",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15-25%",
+      "rare": "16-37.5%",
+      "epic": "24-50%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Thunder Dash": {
+    "id": "Thunder Dash",
+    "name": "Thunder Dash",
+    "god": "Zeus",
+    "description": "causes a lightning bolt to strike nearby foes",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "10",
+      "rare": "13.3",
+      "epic": "16.6",
+      "heroic": "20"
+    },
+    "prereqs": []
+  },
+  "Tidal Dash": {
+    "id": "Tidal Dash",
+    "name": "Tidal Dash",
+    "god": "Poseidon",
+    "description": "damages foes in an area and knocks them away",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "35",
+      "rare": "42",
+      "epic": "49",
+      "heroic": "56"
+    },
+    "prereqs": []
+  },
+  "Divine Dash": {
+    "id": "Divine Dash",
+    "name": "Divine Dash",
+    "god": "Athena",
+    "description": "deals damage and deflects",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "10",
+      "rare": "12",
+      "epic": "14",
+      "heroic": "16"
+    },
+    "prereqs": []
+  },
+  "Blade Dash": {
+    "id": "Blade Dash",
+    "name": "Blade Dash",
+    "god": "Ares",
+    "description": "create a blade rift at start (damage every 0.1s for 0.7s)",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "5",
+      "rare": "6",
+      "epic": "7",
+      "heroic": "8"
+    },
+    "prereqs": []
+  },
+  "Hunter Dash": {
+    "id": "Hunter Dash",
+    "name": "Hunter Dash",
+    "god": "Artemis",
+    "description": "dash-strike deals more damage",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%",
+      "rare": "+75%",
+      "epic": "+100%",
+      "heroic": "+125%"
+    },
+    "prereqs": []
+  },
+  "Passion Dash": {
+    "id": "Passion Dash",
+    "name": "Passion Dash",
+    "god": "Aphrodite",
+    "description": "inflict damage and weak at end of dash",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "20",
+      "rare": "24",
+      "epic": "28",
+      "heroic": "32"
+    },
+    "prereqs": []
+  },
+  "Drunken Dash": {
+    "id": "Drunken Dash",
+    "name": "Drunken Dash",
+    "god": "Dionysus",
+    "description": "inflicts hangover (stack 5, damage every 0.5s for 4s)",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "2",
+      "rare": "3",
+      "epic": "4",
+      "heroic": "5"
+    },
+    "prereqs": []
+  },
+  "Mistral Dash": {
+    "id": "Mistral Dash",
+    "name": "Mistral Dash",
+    "god": "Demeter",
+    "description": "shoot a gust ahead that inflicts chill",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15",
+      "rare": "22.5",
+      "epic": "30",
+      "heroic": "37.5"
+    },
+    "prereqs": []
+  },
+  "Greatest Reflex": {
+    "id": "Greatest Reflex",
+    "name": "Greatest Reflex",
+    "god": "Hermes",
+    "description": "dash more times in a row",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+1",
+      "rare": "+2",
+      "epic": "+3",
+      "heroic": "+4"
+    },
+    "prereqs": []
+  },
+  "Chaos Lunge": {
+    "id": "Chaos Lunge",
+    "name": "Chaos Lunge",
+    "god": "Chaos",
+    "description": "your dash-attack deals more damage",
+    "slot": "Dash",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "20-35%",
+      "rare": "22-52.5%",
+      "epic": "32-70%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Zeus's Aid": {
+    "id": "Zeus's Aid",
+    "name": "Zeus's Aid",
+    "god": "Zeus",
+    "description": "lightning strikes nearby foes repeatedly for 1.5s (max 9s)",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "60",
+      "rare": "66",
+      "epic": "72",
+      "heroic": "84"
+    },
+    "prereqs": []
+  },
+  "Poseidon's Aid": {
+    "id": "Poseidon's Aid",
+    "name": "Poseidon's Aid",
+    "god": "Poseidon",
+    "description": "surge into foes while impervious for 1.2s (max 7.2s)",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "250",
+      "rare": "300",
+      "epic": "350",
+      "heroic": "400"
+    },
+    "prereqs": []
+  },
+  "Athena's Aid": {
+    "id": "Athena's Aid",
+    "name": "Athena's Aid",
+    "god": "Athena",
+    "description": "makes you invulnerable and deflects all attacks",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "1.5s",
+      "rare": "1.65s",
+      "epic": "1.8s",
+      "heroic": "1.95s"
+    },
+    "prereqs": []
+  },
+  "Ares' Aid": {
+    "id": "Ares' Aid",
+    "name": "Ares' Aid",
+    "god": "Ares",
+    "description": "turn into an invulnerable rift blade for 2.5s (max 15s)",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15",
+      "rare": "18",
+      "epic": "21",
+      "heroic": "24"
+    },
+    "prereqs": []
+  },
+  "Artemis's Aid": {
+    "id": "Artemis's Aid",
+    "name": "Artemis's Aid",
+    "god": "Artemis",
+    "description": "fire 1 unblockable seeking arrow (max 10) with +35% crit",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "100",
+      "rare": "110",
+      "epic": "120",
+      "heroic": "130"
+    },
+    "prereqs": []
+  },
+  "Aphrodite's Aid": {
+    "id": "Aphrodite's Aid",
+    "name": "Aphrodite's Aid",
+    "god": "Aphrodite",
+    "description": "fire a seeking piercing projectile that inflicts charm",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "5",
+      "rare": "5.5",
+      "epic": "6",
+      "heroic": "6.5"
+    },
+    "prereqs": []
+  },
+  "Dionysus's Aid": {
+    "id": "Dionysus's Aid",
+    "name": "Dionysus's Aid",
+    "god": "Dionysus",
+    "description": "inflict hangover to all foes around you for 1.5s (max 9s)",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15",
+      "rare": "16.5",
+      "epic": "18",
+      "heroic": "19.5"
+    },
+    "prereqs": []
+  },
+  "Demeter's Aid": {
+    "id": "Demeter's Aid",
+    "name": "Demeter's Aid",
+    "god": "Demeter",
+    "description": "create a winter vortex that chills and damages every 0.25s for 5s (max 15s)",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15",
+      "rare": "22.5",
+      "epic": "30",
+      "heroic": "37.5"
+    },
+    "prereqs": []
+  },
+  "Second Wind": {
+    "id": "Second Wind",
+    "name": "Second Wind",
+    "god": "Hermes",
+    "description": "after using call, gain dodge chance and move speed for 6s",
+    "slot": "Call",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+37.5%",
+      "epic": "+45%",
+      "heroic": "+52.5%"
+    },
+    "prereqs": []
+  },
+  "Static Discharge": {
+    "id": "Static Discharge",
+    "name": "Static Discharge",
+    "god": "Zeus",
+    "description": "lightning effects also cause jolted (next attack self-inflicts damage)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "60",
+      "rare": "90",
+      "epic": "120",
+      "heroic": "150"
+    },
+    "prereqs": []
+  },
+  "Razor Shoals": {
+    "id": "Razor Shoals",
+    "name": "Razor Shoals",
+    "god": "Poseidon",
+    "description": "knock-away effects also cause rupture (take damage every 0.2s while moving)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "5",
+      "rare": "7.5",
+      "epic": "10",
+      "heroic": "12.5"
+    },
+    "prereqs": []
+  },
+  "Blinding Flash": {
+    "id": "Blinding Flash",
+    "name": "Blinding Flash",
+    "god": "Athena",
+    "description": "deflect also makes foes exposed for 5s (take more damage from behind)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%",
+      "rare": "+62.5%",
+      "epic": "+75%",
+      "heroic": "+87.5%"
+    },
+    "prereqs": []
+  },
+  "Dire Misfortune": {
+    "id": "Dire Misfortune",
+    "name": "Dire Misfortune",
+    "god": "Ares",
+    "description": "NOT a status curse doom effects deal more damage when applied multiple times",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "5",
+      "rare": "7.5",
+      "epic": "10",
+      "heroic": "12.5"
+    },
+    "prereqs": []
+  },
+  "Hunter's Mark": {
+    "id": "Hunter's Mark",
+    "name": "Hunter's Mark",
+    "god": "Artemis",
+    "description": "after dealing critical damage, a foe near it is marked (higher chance of crit for 2.5s)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+45%",
+      "epic": "+75%",
+      "heroic": "+81%"
+    },
+    "prereqs": []
+  },
+  "Sweet Surrender": {
+    "id": "Sweet Surrender",
+    "name": "Sweet Surrender",
+    "god": "Aphrodite",
+    "description": "weak-afflicted foes are more susceptible to damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10%",
+      "rare": "+15%",
+      "epic": "+25%",
+      "heroic": "+27%"
+    },
+    "prereqs": []
+  },
+  "Numbing Sensation": {
+    "id": "Numbing Sensation",
+    "name": "Numbing Sensation",
+    "god": "Dionysus",
+    "description": "NOT a status curse hangover effects also makes foes move slower for 4s",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-15%",
+      "rare": "-22.5%",
+      "epic": "-33%",
+      "heroic": "-37.5%"
+    },
+    "prereqs": []
+  },
+  "Killing Freeze": {
+    "id": "Killing Freeze",
+    "name": "Killing Freeze",
+    "god": "Demeter",
+    "description": "NOT a status curse applying chill to all enemies causes them to slow and decay (every 0.5s)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-10%, 20",
+      "rare": "-15%, 30",
+      "epic": "-20%, 40",
+      "heroic": "-25%, 50"
+    },
+    "prereqs": []
+  },
+  "Hyper Sprint": {
+    "id": "Hyper Sprint",
+    "name": "Hyper Sprint",
+    "god": "Hermes",
+    "description": "after a dash, gain +% move speed and sturdy for a certain amount of time",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%, 0.5s",
+      "rare": "+70%, 0.75s",
+      "epic": "+100%, 1.0s",
+      "heroic": "+125%, 1.25s"
+    },
+    "prereqs": []
+  },
+  "Soul": {
+    "id": "Soul",
+    "name": "Soul",
+    "god": "Chaos",
+    "description": "gain health",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "15-20",
+      "rare": "16-30",
+      "epic": "24-40",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Storm Lightning": {
+    "id": "Storm Lightning",
+    "name": "Storm Lightning",
+    "god": "Zeus",
+    "description": "chain-lightning effects bounce more times before expiring",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+2",
+      "rare": "+4",
+      "epic": "+6",
+      "heroic": "+8"
+    },
+    "prereqs": []
+  },
+  "Wave Pounding": {
+    "id": "Wave Pounding",
+    "name": "Wave Pounding",
+    "god": "Poseidon",
+    "description": "boons with knock-away effects deal bonus damage to bosses",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10%",
+      "rare": "+20%",
+      "epic": "+30%",
+      "heroic": "+40%"
+    },
+    "prereqs": []
+  },
+  "Brilliant Riposte": {
+    "id": "Brilliant Riposte",
+    "name": "Brilliant Riposte",
+    "god": "Athena",
+    "description": "when you deflect attacks, they deal more damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+80%",
+      "rare": "+120%",
+      "epic": "+200%"
+    },
+    "prereqs": []
+  },
+  "Impending Doom": {
+    "id": "Impending Doom",
+    "name": "Impending Doom",
+    "god": "Ares",
+    "description": "doom effects deal more damage, after +0.5s",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+60%",
+      "rare": "+66%",
+      "epic": "+72%",
+      "heroic": "+78%"
+    },
+    "prereqs": []
+  },
+  "Pressure Points": {
+    "id": "Pressure Points",
+    "name": "Pressure Points",
+    "god": "Artemis",
+    "description": "any damage your deal has a chance to be critical",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+3%",
+      "rare": "+4%",
+      "epic": "+5%",
+      "heroic": "+6%"
+    },
+    "prereqs": []
+  },
+  "Broken Resolve": {
+    "id": "Broken Resolve",
+    "name": "Broken Resolve",
+    "god": "Aphrodite",
+    "description": "weak effects are more potent (more damage reduction)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-10%",
+      "rare": "-12.5%",
+      "epic": "-15%",
+      "heroic": "-17.5%"
+    },
+    "prereqs": []
+  },
+  "Peer Pressure": {
+    "id": "Peer Pressure",
+    "name": "Peer Pressure",
+    "god": "Dionysus",
+    "description": "hangover-afflicted foes contaminate other nearby foes every 4s",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "4",
+      "rare": "6",
+      "epic": "10",
+      "heroic": "10.8"
+    },
+    "prereqs": []
+  },
+  "Arctic Blast": {
+    "id": "Arctic Blast",
+    "name": "Arctic Blast",
+    "god": "Demeter",
+    "description": "applying 10 stacks of chill causes a blast, clearing the effect",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "100",
+      "rare": "120",
+      "epic": "140",
+      "heroic": "160"
+    },
+    "prereqs": []
+  },
+  "Greater Haste": {
+    "id": "Greater Haste",
+    "name": "Greater Haste",
+    "god": "Hermes",
+    "description": "move faster",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20%",
+      "rare": "+30%",
+      "epic": "+40%",
+      "heroic": "+49%"
+    },
+    "prereqs": []
+  },
+  "Assault": {
+    "id": "Assault",
+    "name": "Assault",
+    "god": "Chaos",
+    "description": "deal bonus damage striking undamaged foes",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "High Voltage": {
+    "id": "High Voltage",
+    "name": "High Voltage",
+    "god": "Zeus",
+    "description": "lightning bolt effects deal damage in a larger area",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+60%",
+      "rare": "+72%",
+      "epic": "+84%",
+      "heroic": "+96%"
+    },
+    "prereqs": []
+  },
+  "Typhoon's Fury": {
+    "id": "Typhoon's Fury",
+    "name": "Typhoon's Fury",
+    "god": "Poseidon",
+    "description": "deal more damage when slamming foes into barriers",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "300%",
+      "rare": "350%",
+      "epic": "400%",
+      "heroic": "450%"
+    },
+    "prereqs": []
+  },
+  "Black Metal": {
+    "id": "Black Metal",
+    "name": "Black Metal",
+    "god": "Ares",
+    "description": "blade rift deals damage in a wider area",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20%",
+      "rare": "+22%",
+      "epic": "+24%",
+      "heroic": "+26%"
+    },
+    "prereqs": []
+  },
+  "Clean Kill": {
+    "id": "Clean Kill",
+    "name": "Clean Kill",
+    "god": "Artemis",
+    "description": "critical effects deal even more damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+15%",
+      "rare": "+22.5%",
+      "epic": "+30%",
+      "heroic": "+37.5%"
+    },
+    "prereqs": []
+  },
+  "Empty Inside": {
+    "id": "Empty Inside",
+    "name": "Empty Inside",
+    "god": "Aphrodite",
+    "description": "weak effects have longer duration",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+5s",
+      "rare": "+7.5s",
+      "epic": "+10s",
+      "heroic": "+12.5s"
+    },
+    "prereqs": []
+  },
+  "Bad Influence": {
+    "id": "Bad Influence",
+    "name": "Bad Influence",
+    "god": "Dionysus",
+    "description": "deal more damage while 3 foes are hangover-afflicted",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%",
+      "rare": "+75%",
+      "epic": "+100%",
+      "heroic": "+125%"
+    },
+    "prereqs": []
+  },
+  "Glacial Glare (C)": {
+    "id": "Glacial Glare (C)",
+    "name": "Glacial Glare (C)",
+    "god": "Demeter",
+    "description": "your cast fires for a longer duration and inflicts chill",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Rush Delivery": {
+    "id": "Rush Delivery",
+    "name": "Rush Delivery",
+    "god": "Hermes",
+    "description": "deal bonus damage based on any bonus move speed",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+15%",
+      "rare": "+20%",
+      "epic": "+25%",
+      "heroic": "+30%"
+    },
+    "prereqs": []
+  },
+  "Ambush": {
+    "id": "Ambush",
+    "name": "Ambush",
+    "god": "Chaos",
+    "description": "deal bonus damage striking foes from behind",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Double Strike": {
+    "id": "Double Strike",
+    "name": "Double Strike",
+    "god": "Zeus",
+    "description": "lightning bolt effects have a chance to strike twice",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+25%",
+      "rare": "+30%",
+      "epic": "+35%",
+      "heroic": "+40%"
+    },
+    "prereqs": []
+  },
+  "Breaking Wave": {
+    "id": "Breaking Wave",
+    "name": "Breaking Wave",
+    "god": "Poseidon",
+    "description": "slamming foes into walls or corners creates a watery blast in the area which stuns",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "100",
+      "rare": "150",
+      "epic": "250",
+      "heroic": "270"
+    },
+    "prereqs": []
+  },
+  "Engulfing Vortex": {
+    "id": "Engulfing Vortex",
+    "name": "Engulfing Vortex",
+    "god": "Ares",
+    "description": "blade rift lasts longer and pulls foes in",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+0.2s",
+      "rare": "+0.3s",
+      "epic": "+0.5s",
+      "heroic": "+0.54s"
+    },
+    "prereqs": []
+  },
+  "Hide Breaker": {
+    "id": "Hide Breaker",
+    "name": "Hide Breaker",
+    "god": "Artemis",
+    "description": "critical effects deal even more damage to armor",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+200%",
+      "rare": "+300%",
+      "epic": "+400%",
+      "heroic": "+500%"
+    },
+    "prereqs": []
+  },
+  "Blown Kiss (C)": {
+    "id": "Blown Kiss (C)",
+    "name": "Blown Kiss (C)",
+    "god": "Aphrodite",
+    "description": "your cast shoots farther and is stronger against undamaged foes",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "High Tolerance (C)": {
+    "id": "High Tolerance (C)",
+    "name": "High Tolerance (C)",
+    "god": "Dionysus",
+    "description": "take less damage while standing in festive fog",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-15%",
+      "rare": "-22.5%",
+      "epic": "-37.5%",
+      "heroic": "-40.5%"
+    },
+    "prereqs": []
+  },
+  "Heaven's Vengeance": {
+    "id": "Heaven's Vengeance",
+    "name": "Heaven's Vengeance",
+    "god": "Zeus",
+    "description": "... your foe is struck by lightning",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {
+      "common": "80",
+      "rare": "120",
+      "epic": "160",
+      "heroic": "200"
+    },
+    "prereqs": []
+  },
+  "Holy Shield": {
+    "id": "Holy Shield",
+    "name": "Holy Shield",
+    "god": "Athena",
+    "description": "... damage nearby foes and deflect",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {
+      "common": "30",
+      "rare": "45",
+      "epic": "60",
+      "heroic": "75"
+    },
+    "prereqs": []
+  },
+  "Curse of Vengeance": {
+    "id": "Curse of Vengeance",
+    "name": "Curse of Vengeance",
+    "god": "Ares",
+    "description": "... inflict doom on surrounding foes",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {
+      "common": "90",
+      "rare": "99",
+      "epic": "108",
+      "heroic": "117"
+    },
+    "prereqs": []
+  },
+  "Wave of Despair": {
+    "id": "Wave of Despair",
+    "name": "Wave of Despair",
+    "god": "Aphrodite",
+    "description": "... damage nearby foes and inflict weak",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {
+      "common": "50",
+      "rare": "75",
+      "epic": "100",
+      "heroic": "125"
+    },
+    "prereqs": []
+  },
+  "Frozen Touch": {
+    "id": "Frozen Touch",
+    "name": "Frozen Touch",
+    "god": "Demeter",
+    "description": "... damage and completely chill  your foe",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Quick Recovery": {
+    "id": "Quick Recovery",
+    "name": "Quick Recovery",
+    "god": "Hermes",
+    "description": "... quickly dash to recover some health lost",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {
+      "common": "20%",
+      "rare": "30%",
+      "epic": "40%",
+      "heroic": "50%"
+    },
+    "prereqs": []
+  },
+  "Ruin": {
+    "id": "Ruin",
+    "name": "Ruin",
+    "god": "Chaos",
+    "description": "traps deal bonus damage to foes",
+    "slot": "",
+    "revenge": true,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Lightning Reflexes": {
+    "id": "Lightning Reflexes",
+    "name": "Lightning Reflexes",
+    "god": "Zeus",
+    "description": "dash just before being hit to counter-attack with a lightning bolt",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Hydraulic Might": {
+    "id": "Hydraulic Might",
+    "name": "Hydraulic Might",
+    "god": "Poseidon",
+    "description": "attack and special are stronger in the first 5 seconds of encounters",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "rare": "+174%"
+    },
+    "prereqs": []
+  },
+  "Bronze Skin": {
+    "id": "Bronze Skin",
+    "name": "Bronze Skin",
+    "god": "Athena",
+    "description": "resist damage from foes' attacks",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-5%",
+      "rare": "-7.5%",
+      "epic": "-10%",
+      "heroic": "-12.5%"
+    },
+    "prereqs": []
+  },
+  "Urge to Kill": {
+    "id": "Urge to Kill",
+    "name": "Urge to Kill",
+    "god": "Ares",
+    "description": "attack and cast deal more damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+8%",
+      "rare": "+10%",
+      "epic": "+12%",
+      "heroic": "+14%"
+    },
+    "prereqs": []
+  },
+  "Support Fire": {
+    "id": "Support Fire",
+    "name": "Support Fire",
+    "god": "Artemis",
+    "description": "after you hit with an attack, cast, or special, fire an unblockable seeking arrow",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "10",
+      "rare": "12",
+      "epic": "14",
+      "heroic": "16"
+    },
+    "prereqs": []
+  },
+  "Different League": {
+    "id": "Different League",
+    "name": "Different League",
+    "god": "Aphrodite",
+    "description": "resist damage from nearby foes' attacks",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-10%",
+      "rare": "-12.5%",
+      "epic": "-15%",
+      "heroic": "-17.5%"
+    },
+    "prereqs": []
+  },
+  "Positive Outlook": {
+    "id": "Positive Outlook",
+    "name": "Positive Outlook",
+    "god": "Dionysus",
+    "description": "take less damage while at 40% health or below",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-10%",
+      "rare": "-15%",
+      "epic": "-20%"
+    },
+    "prereqs": []
+  },
+  "Greater Evasion": {
+    "id": "Greater Evasion",
+    "name": "Greater Evasion",
+    "god": "Hermes",
+    "description": "more chance to dodge",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+15%",
+      "rare": "+20%",
+      "epic": "+25%",
+      "heroic": "+30%"
+    },
+    "prereqs": []
+  },
+  "Favor": {
+    "id": "Favor",
+    "name": "Favor",
+    "god": "Chaos",
+    "description": "boons have more chance of being rare or better",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+11-20%",
+      "rare": "+12-30%",
+      "epic": "+18-40%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Sure Footing": {
+    "id": "Sure Footing",
+    "name": "Sure Footing",
+    "god": "Athena",
+    "description": "resist damage from traps",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-60%",
+      "rare": "-75%",
+      "epic": "-90%",
+      "heroic": "-95%"
+    },
+    "prereqs": []
+  },
+  "Battle Rage (K)": {
+    "id": "Battle Rage (K)",
+    "name": "Battle Rage (K)",
+    "god": "Ares",
+    "description": "after slaying a foe, your next attack or special deals more damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+100%",
+      "rare": "+150%",
+      "epic": "+200%",
+      "heroic": "+250%"
+    },
+    "prereqs": []
+  },
+  "Dying Lament (K)": {
+    "id": "Dying Lament (K)",
+    "name": "Dying Lament (K)",
+    "god": "Aphrodite",
+    "description": "when floes are slain, damage nearby foes and inflict weak",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "-10%",
+      "rare": "-12.5%",
+      "epic": "-15%",
+      "heroic": "-17.5%"
+    },
+    "prereqs": []
+  },
+  "After Party": {
+    "id": "After Party",
+    "name": "After Party",
+    "god": "Dionysus",
+    "description": "if your health is low after an encounter, restore to the threshold",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "30%",
+      "rare": "37.5%",
+      "epic": "40%",
+      "heroic": "60%"
+    },
+    "prereqs": []
+  },
+  "Affluence": {
+    "id": "Affluence",
+    "name": "Affluence",
+    "god": "Chaos",
+    "description": "coin is worth more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+15-30%",
+      "rare": "+16-45%",
+      "epic": "+24-60%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Clouded Judgment": {
+    "id": "Clouded Judgment",
+    "name": "Clouded Judgment",
+    "god": "Zeus",
+    "description": "god gauge charges faster when dealing or taking damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10%",
+      "rare": "+12%",
+      "epic": "+14%",
+      "heroic": "+16%"
+    },
+    "prereqs": []
+  },
+  "Rip Current (Call)": {
+    "id": "Rip Current (Call)",
+    "name": "Rip Current (Call)",
+    "god": "Poseidon",
+    "description": "makes Poseidon's Aid last longer and pull foes in",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Proud Bearing": {
+    "id": "Proud Bearing",
+    "name": "Proud Bearing",
+    "god": "Athena",
+    "description": "begin each encounter with the god gauge partly full",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "20%",
+      "rare": "25%",
+      "epic": "30%",
+      "heroic": "40%"
+    },
+    "prereqs": []
+  },
+  "Blood Frenzy": {
+    "id": "Blood Frenzy",
+    "name": "Blood Frenzy",
+    "god": "Ares",
+    "description": "after using death defiance, deal more damage in that encounter",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Exit Wounds": {
+    "id": "Exit Wounds",
+    "name": "Exit Wounds",
+    "god": "Artemis",
+    "description": "foes take damage when cast gems become dislodged",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "100",
+      "rare": "120",
+      "epic": "140",
+      "heroic": "160"
+    },
+    "prereqs": []
+  },
+  "Snow Burst": {
+    "id": "Snow Burst",
+    "name": "Snow Burst",
+    "god": "Demeter",
+    "description": "whenever you cast, damage nearby foes and inflict chill",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "40",
+      "rare": "50",
+      "epic": "60",
+      "heroic": "70"
+    },
+    "prereqs": []
+  },
+  "Quick Reload": {
+    "id": "Quick Reload",
+    "name": "Quick Reload",
+    "god": "Hermes",
+    "description": "foes drop cast gems stuck in them faster",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "rare": "6.67s"
+    },
+    "prereqs": []
+  },
+  "Grasp": {
+    "id": "Grasp",
+    "name": "Grasp",
+    "god": "Chaos",
+    "description": "gain cast gem(s)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+1",
+      "rare": "+2",
+      "epic": "+3",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Billowing Strength": {
+    "id": "Billowing Strength",
+    "name": "Billowing Strength",
+    "god": "Zeus",
+    "description": "after using your call, deal more damage for 15s",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20%",
+      "rare": "+22%",
+      "epic": "+24%",
+      "heroic": "+20%"
+    },
+    "prereqs": []
+  },
+  "Boiling Point": {
+    "id": "Boiling Point",
+    "name": "Boiling Point",
+    "god": "Poseidon",
+    "description": "god gauge charges faster when taking damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+40%",
+      "rare": "+50%",
+      "epic": "+60%",
+      "heroic": "+70%"
+    },
+    "prereqs": []
+  },
+  "Hunter Instinct": {
+    "id": "Hunter Instinct",
+    "name": "Hunter Instinct",
+    "god": "Artemis",
+    "description": "god gauge charges faster when dealing critical damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+0.25%",
+      "rare": "+0.3%",
+      "epic": "+0.35%",
+      "heroic": "+0.4%"
+    },
+    "prereqs": []
+  },
+  "Ravenous Will": {
+    "id": "Ravenous Will",
+    "name": "Ravenous Will",
+    "god": "Demeter",
+    "description": "while you have no cast gems, take 10% less damage and deal more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10%",
+      "rare": "+20%",
+      "epic": "+30%",
+      "heroic": "+40%"
+    },
+    "prereqs": []
+  },
+  "Quick Favor": {
+    "id": "Quick Favor",
+    "name": "Quick Favor",
+    "god": "Hermes",
+    "description": "your god gauge slowly charges up automatically",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Ocean's Bounty": {
+    "id": "Ocean's Bounty",
+    "name": "Ocean's Bounty",
+    "god": "Poseidon",
+    "description": "any gems, darkness, or coin are worth more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+50%",
+      "rare": "+55%",
+      "epic": "+60%",
+      "heroic": "+65%"
+    },
+    "prereqs": []
+  },
+  "Deathless Stand": {
+    "id": "Deathless Stand",
+    "name": "Deathless Stand",
+    "god": "Athena",
+    "description": "death defiance makes you impervious longer replenish 1 charge",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+2s",
+      "rare": "+2.5s",
+      "epic": "+3s",
+      "heroic": "+3.5s"
+    },
+    "prereqs": []
+  },
+  "Life Affirmation": {
+    "id": "Life Affirmation",
+    "name": "Life Affirmation",
+    "god": "Aphrodite",
+    "description": "any health increase rewards are worth more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+36%",
+      "epic": "+42%",
+      "heroic": "+48%"
+    },
+    "prereqs": []
+  },
+  "Premium Vintage": {
+    "id": "Premium Vintage",
+    "name": "Premium Vintage",
+    "god": "Dionysus",
+    "description": "gain health when you pick up nectar receive 1 nectar",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "20",
+      "rare": "25",
+      "epic": "30",
+      "heroic": "35"
+    },
+    "prereqs": []
+  },
+  "Nourished Soul": {
+    "id": "Nourished Soul",
+    "name": "Nourished Soul",
+    "god": "Demeter",
+    "description": "any health effects are more potent restore +30% health",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+30%",
+      "rare": "+32.25%",
+      "epic": "+34.5%",
+      "heroic": "+36.75%"
+    },
+    "prereqs": []
+  },
+  "Side Hustle": {
+    "id": "Side Hustle",
+    "name": "Side Hustle",
+    "god": "Hermes",
+    "description": "gain some money each time you enter a chamber",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10",
+      "rare": "+13",
+      "epic": "+16",
+      "heroic": "+19"
+    },
+    "prereqs": []
+  },
+  "Eclipse": {
+    "id": "Eclipse",
+    "name": "Eclipse",
+    "god": "Chaos",
+    "description": "darkness is worth more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+20-40%",
+      "rare": "+22-60%",
+      "epic": "+32-80%",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Sunken Treasure": {
+    "id": "Sunken Treasure",
+    "name": "Sunken Treasure",
+    "god": "Poseidon",
+    "description": "gain an assortment of gems, 50-100 darkness, 50-70 coin, and 10-30 health (nectar)",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "1x",
+      "rare": "1.5x",
+      "epic": "2.2x",
+      "heroic": "n/a"
+    },
+    "prereqs": []
+  },
+  "Last Stand": {
+    "id": "Last Stand",
+    "name": "Last Stand",
+    "god": "Athena",
+    "description": "death defiance restores more health than usual replenish 1 charge",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "+10%",
+      "rare": "+12%",
+      "epic": "+14%",
+      "heroic": "+16%"
+    },
+    "prereqs": []
+  },
+  "Strong Drink": {
+    "id": "Strong Drink",
+    "name": "Strong Drink",
+    "god": "Dionysus",
+    "description": "using fountains restores all your health and gives you bonus damage",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "3%",
+      "rare": "4%",
+      "epic": "5%"
+    },
+    "prereqs": []
+  },
+  "Rare Crop": {
+    "id": "Rare Crop",
+    "name": "Rare Crop",
+    "god": "Demeter",
+    "description": "your boons become common, then gain rarity every 3 encounters",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {
+      "common": "1",
+      "rare": "2",
+      "epic": "3"
+    },
+    "prereqs": []
+  },
+  "Brilliance": {
+    "id": "Brilliance",
+    "name": "Brilliance",
+    "god": "Chaos",
+    "description": "gemstones are worth more",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Splitting Bolt": {
+    "id": "Splitting Bolt",
+    "name": "Splitting Bolt",
+    "god": "Zeus",
+    "description": "all lightning effects create an additional burst (5 bounces, 40 damage)",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Second Wave": {
+    "id": "Second Wave",
+    "name": "Second Wave",
+    "god": "Poseidon",
+    "description": "knock-away effects shove foes a second time 0.7s after the first",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Divine Protection": {
+    "id": "Divine Protection",
+    "name": "Divine Protection",
+    "god": "Athena",
+    "description": "gain a barrier that negates incoming damage (20s cooldown)",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Vicious Cycle": {
+    "id": "Vicious Cycle",
+    "name": "Vicious Cycle",
+    "god": "Ares",
+    "description": "blade rift effects deal 1 more damage for each consecutive hit",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Fully Loaded": {
+    "id": "Fully Loaded",
+    "name": "Fully Loaded",
+    "god": "Artemis",
+    "description": "gain +2 cast gems",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Unhealthy Fixation": {
+    "id": "Unhealthy Fixation",
+    "name": "Unhealthy Fixation",
+    "god": "Aphrodite",
+    "description": "weak effects also have a 15% chance to charm",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Black Out (C)": {
+    "id": "Black Out (C)",
+    "name": "Black Out (C)",
+    "god": "Dionysus",
+    "description": "hangover-afflicted foes take +100% bonus damage in festive fog",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Winter Harvest": {
+    "id": "Winter Harvest",
+    "name": "Winter Harvest",
+    "god": "Demeter",
+    "description": "chill-affected foes shatter at 10% health, inflicting 50 damage and chill nearby",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Greater Recall": {
+    "id": "Greater Recall",
+    "name": "Greater Recall",
+    "god": "Hermes",
+    "description": "cast gems automatically return to you",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Defiance": {
+    "id": "Defiance",
+    "name": "Defiance",
+    "god": "Chaos",
+    "description": "gain +1 death defiance",
+    "slot": "",
+    "revenge": false,
+    "legendary": true,
+    "rarityData": {},
+    "prereqs": []
+  },
+  "Bad News": {
+    "id": "Bad News",
+    "name": "Bad News",
+    "god": "Hermes",
+    "description": "",
+    "slot": "",
+    "revenge": false,
+    "legendary": false,
+    "rarityData": {},
+    "prereqs": []
+  }
+}

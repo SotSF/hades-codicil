@@ -1,26 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Boon } from './boon';
+import { BoonType } from './models/boon'
+
+const boons: {[key:string]:BoonType} = require('./data/boons.json');
+const boonkeys = Object.keys(boons);
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+   {boonkeys.map( (boonname:string) => (
+    <Boon key={boonname} boon={boons[boonname]}/>
+  ))}
+  </div>
+  )
 }
-
 export default App;
