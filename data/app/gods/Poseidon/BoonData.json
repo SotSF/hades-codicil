@@ -1,0 +1,230 @@
+{
+  "Traits": [
+    "RoomRewardBonusTrait",
+    "DefensiveSuperGenerationTrait",
+    "EncounterStartOffenseBuffTrait"
+  ],
+  "LinkedUpgrades": {
+    "ArtemisBonusProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "BlizzardOrbTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "BonusCollisionTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "BossDamageTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "DoubleCollisionTrait": {
+      "OneFromEachSet": [
+        [
+          "BonusCollisionTrait",
+          "SlamExplosionTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonRushTrait",
+          "PoseidonRangedTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "FishingTrait": {
+      "OneFromEachSet": [
+        [
+          "RoomRewardBonusTrait",
+          "PoseidonPickedUpMinorLootTrait"
+        ],
+        [
+          "PoseidonPickedUpMinorLootTrait",
+          "ForcePoseidonBoonTrait"
+        ],
+        [
+          "RoomRewardBonusTrait",
+          "ForcePoseidonBoonTrait"
+        ]
+      ]
+    },
+    "ImpactBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "ImprovedPomTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "PoseidonAresProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRushTrait",
+          "AresShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "PoseidonShoutDurationTrait": {
+      "OneOf": [
+        "PoseidonShoutTrait"
+      ]
+    },
+    "RaritySuperBoost": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "SlamExplosionTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ]
+    },
+    "SlipperyTrait": {
+      "OneOf": [
+        "PoseidonWeaponTrait",
+        "PoseidonRushTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "PoseidonSecondaryTrait",
+        "PoseidonShoutTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "StatusImmunityTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonRushTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolPoseidon",
+  "LightingColor": [
+    139,
+    199,
+    253,
+    255
+  ],
+  "LootColor": [
+    0,
+    200,
+    255,
+    255
+  ],
+  "SubtitleColor": [
+    0.196,
+    1.0,
+    0.745,
+    1.0
+  ]
+}

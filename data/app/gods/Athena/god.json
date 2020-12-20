@@ -1,0 +1,163 @@
+{
+  "Traits": [
+    "TrapDamageTrait",
+    "EnemyDamageTrait",
+    "AthenaRetaliateTrait",
+    "PreloadSuperGenerationTrait"
+  ],
+  "LinkedUpgrades": {
+    "ArtemisReflectBuffTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    },
+    "AthenaBackstabDebuffTrait": {
+      "OneOf": [
+        "AthenaWeaponTrait",
+        "AthenaRangedTrait",
+        "ShieldLoadAmmo_AthenaRangedTrait",
+        "AthenaRushTrait",
+        "AthenaSecondaryTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "AthenaShieldTrait": {
+      "OneOf": [
+        "AthenaWeaponTrait",
+        "AthenaRushTrait",
+        "AthenaRetaliateTrait",
+        "AthenaSecondaryTrait"
+      ]
+    },
+    "CastBackstabTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaRangedTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    },
+    "NoLastStandRegenerationTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRangedTrait",
+          "ShieldLoadAmmo_DemeterRangedTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    },
+    "ReboundingAthenaCastTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "AthenaRangedTrait"
+        ]
+      ]
+    },
+    "ShieldHitTrait": {
+      "OneOf": [
+        "AthenaShieldTrait"
+      ]
+    },
+    "SlowProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "StatusImmunityTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "TriggerCurseTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolAthena",
+  "LightingColor": [
+    253,
+    189,
+    49,
+    255
+  ],
+  "LootColor": [
+    96,
+    64,
+    255,
+    255
+  ],
+  "SubtitleColor": [
+    1.0,
+    0.847,
+    0.235,
+    1.0
+  ]
+}

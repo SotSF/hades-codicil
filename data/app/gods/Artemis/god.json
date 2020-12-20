@@ -1,0 +1,212 @@
+{
+  "Traits": [
+    "CritBonusTrait"
+  ],
+  "LinkedUpgrades": {
+    "AmmoBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "AresHomingTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    },
+    "ArtemisAmmoExitTrait": {
+      "OneOf": [
+        "ArtemisRangedTrait",
+        "PoseidonRangedTrait",
+        "ShieldLoadAmmo_PoseidonRangedTrait",
+        "ZeusRangedTrait",
+        "AphroditeRangedTrait",
+        "AthenaRangedTrait"
+      ]
+    },
+    "ArtemisBonusProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ]
+      ]
+    },
+    "ArtemisCriticalTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ]
+    },
+    "ArtemisReflectBuffTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    },
+    "ArtemisSupportingFireTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRushTrait",
+        "ArtemisRangedTrait",
+        "ShieldLoadAmmo_ArtemisRangedTrait",
+        "ArtemisShoutTrait",
+        "CritBonusTrait"
+      ]
+    },
+    "CritVulnerabilityTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ],
+      "PriorityChance": 0.5
+    },
+    "CriticalBufferMultiplierTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait",
+        "ArtemisShoutTrait"
+      ]
+    },
+    "CriticalSuperGenerationTrait": {
+      "OneOf": [
+        "ArtemisWeaponTrait",
+        "CritBonusTrait",
+        "ArtemisSecondaryTrait",
+        "ArtemisRangedTrait"
+      ]
+    },
+    "HeartsickCritDamageTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "HomingLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "DemeterRangedTrait"
+        ]
+      ]
+    },
+    "MoreAmmoTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisAmmoExitTrait",
+          "CritBonusTrait"
+        ],
+        [
+          "ArtemisSupportingFireTrait",
+          "ArtemisAmmoExitTrait"
+        ],
+        [
+          "ArtemisSupportingFireTrait",
+          "CritBonusTrait"
+        ]
+      ]
+    },
+    "PoisonCritVulnerabilityTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolArtemis",
+  "LightingColor": [
+    210,
+    255,
+    97,
+    255
+  ],
+  "LootColor": [
+    110,
+    255,
+    0,
+    255
+  ],
+  "SubtitleColor": [
+    0.059,
+    1.0,
+    0.035,
+    1.0
+  ]
+}

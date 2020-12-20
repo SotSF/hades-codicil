@@ -1,0 +1,196 @@
+{
+  "Traits": [
+    "AphroditeRetaliateTrait",
+    "AphroditeDeathTrait",
+    "ProximityArmorTrait",
+    "HealthRewardBonusTrait"
+  ],
+  "LinkedUpgrades": {
+    "AphroditeDurationTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "AphroditePotencyTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "AphroditeRangedBonusTrait": {
+      "OneOf": [
+        "AphroditeRangedTrait"
+      ]
+    },
+    "AphroditeWeakenTrait": {
+      "OneOf": [
+        "AphroditeRushTrait",
+        "AphroditeRangedTrait",
+        "AphroditeWeaponTrait",
+        "AphroditeSecondaryTrait",
+        "ShieldLoadAmmo_AphroditeRangedTrait"
+      ]
+    },
+    "CastBackstabTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaRangedTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    },
+    "CharmTrait": {
+      "OneFromEachSet": [
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        [
+          "AphroditeDurationTrait",
+          "AphroditeWeakenTrait",
+          "AphroditePotencyTrait"
+        ]
+      ]
+    },
+    "CurseSickTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "DionysusAphroditeStackIncreaseTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "HeartsickCritDamageTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "ImprovedPomTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "RegeneratingCappedSuperTrait": {
+      "OneFromEachSet": [
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeRangedTrait",
+          "AphroditeRushTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "SelfLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterRangedTrait"
+        ],
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeRushTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolAphrodite",
+  "LightingColor": [
+    255,
+    196,
+    240,
+    255
+  ],
+  "LootColor": [
+    255,
+    50,
+    240,
+    255
+  ],
+  "SubtitleColor": [
+    1.0,
+    0.353,
+    0.675,
+    1.0
+  ]
+}

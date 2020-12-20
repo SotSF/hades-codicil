@@ -1,0 +1,196 @@
+{
+  "Traits": [
+    "RetaliateWeaponTrait",
+    "SuperGenerationTrait",
+    "OnWrathDamageBuffTrait",
+    "PerfectDashBoltTrait"
+  ],
+  "LinkedUpgrades": {
+    "AmmoBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ShieldLoadAmmo_ArtemisRangedTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "AutoRetaliateTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait"
+        ],
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRangedTrait",
+          "AresRushTrait",
+          "AresShoutTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "AresRetaliateTrait",
+          "RetaliateWeaponTrait",
+          "AthenaRetaliateTrait",
+          "AphroditeRetaliateTrait",
+          "DemeterRetaliateTrait"
+        ]
+      ]
+    },
+    "ImpactBoltTrait": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "JoltDurationTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "ZeusLightningDebuff"
+        ]
+      ]
+    },
+    "LightningCloudTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait"
+        ]
+      ]
+    },
+    "ReboundingAthenaCastTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "AthenaRangedTrait"
+        ]
+      ]
+    },
+    "RegeneratingCappedSuperTrait": {
+      "OneFromEachSet": [
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeRangedTrait",
+          "AphroditeRushTrait",
+          "AphroditeShoutTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        [
+          "ZeusWeaponTrait",
+          "ZeusRushTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait",
+          "ZeusShoutTrait"
+        ]
+      ]
+    },
+    "ZeusBoltAoETrait": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ]
+    },
+    "ZeusBonusBoltTrait": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ]
+    },
+    "ZeusBonusBounceTrait": {
+      "OneOf": [
+        "ZeusWeaponTrait",
+        "ZeusRangedTrait"
+      ]
+    },
+    "ZeusChargedBoltTrait": {
+      "OneOf": [
+        "ZeusBonusBounceTrait",
+        "ZeusBoltAoETrait",
+        "ZeusBonusBoltTrait"
+      ]
+    },
+    "ZeusLightningDebuff": {
+      "OneOf": [
+        "ZeusSecondaryTrait",
+        "ZeusShoutTrait",
+        "ZeusRushTrait",
+        "RetaliateWeaponTrait",
+        "ZeusWeaponTrait",
+        "ZeusRangedTrait",
+        "PerfectDashBoltTrait",
+        "ShieldLoadAmmo_ZeusRangedTrait"
+      ],
+      "PriorityChance": 0.5
+    }
+  },
+  "Icon": "BoonSymbolZeus",
+  "LightingColor": [
+    235,
+    206,
+    87,
+    255
+  ],
+  "LootColor": [
+    255,
+    255,
+    64,
+    255
+  ],
+  "SubtitleColor": [
+    1.0,
+    0.973,
+    0.733,
+    1.0
+  ]
+}

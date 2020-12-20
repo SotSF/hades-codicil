@@ -1,0 +1,58 @@
+{
+  "Traits": [
+    "RegeneratingSuperTrait",
+    "ChamberGoldTrait",
+    "AmmoReloadTrait",
+    "HermesShoutDodge",
+    "HermesWeaponTrait",
+    "HermesSecondaryTrait",
+    "RushRallyTrait",
+    "MoveSpeedTrait",
+    "RushSpeedBoostTrait",
+    "RapidCastTrait",
+    "BonusDashTrait",
+    "DodgeChanceTrait",
+    "AmmoReclaimTrait"
+  ],
+  "LinkedUpgrades": {
+    "MagnetismTrait": {
+      "OneOf": [
+        "RapidCastTrait",
+        "AmmoReclaimTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    },
+    "SpeedDamageTrait": {
+      "OneOf": [
+        "MoveSpeedTrait",
+        "RushSpeedBoostTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    },
+    "UnstoredAmmoDamageTrait": {
+      "OneOf": [
+        "AmmoReloadTrait",
+        "FastClearDodgeBonusTrait"
+      ]
+    }
+  },
+  "Icon": "BoonSymbolHermes",
+  "LightingColor": [
+    255,
+    120,
+    0,
+    255
+  ],
+  "LootColor": [
+    255,
+    90,
+    0,
+    255
+  ],
+  "SubtitleColor": [
+    0.945,
+    0.686,
+    0.349,
+    1.0
+  ]
+}

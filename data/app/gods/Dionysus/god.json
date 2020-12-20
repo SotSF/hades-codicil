@@ -1,0 +1,176 @@
+{
+  "Traits": [
+    "DoorHealTrait",
+    "LowHealthDefenseTrait",
+    "FountainDamageBonusTrait"
+  ],
+  "LinkedUpgrades": {
+    "DionysusAphroditeStackIncreaseTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "DionysusComboVulnerability": {
+      "OneFromEachSet": [
+        [
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait",
+          "DionysusRushTrait"
+        ]
+      ]
+    },
+    "DionysusDefenseTrait": {
+      "OneOf": [
+        "DionysusRangedTrait",
+        "ShieldLoadAmmo_DionysusRangedTrait"
+      ]
+    },
+    "DionysusPoisonPowerTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait",
+        "DionysusShoutTrait"
+      ]
+    },
+    "DionysusSlowTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait",
+        "DionysusShoutTrait"
+      ]
+    },
+    "DionysusSpreadTrait": {
+      "OneOf": [
+        "DionysusRushTrait",
+        "DionysusWeaponTrait",
+        "DionysusSecondaryTrait"
+      ]
+    },
+    "IceStrikeArrayTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait"
+        ]
+      ]
+    },
+    "LightningCloudTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait"
+        ]
+      ]
+    },
+    "PoisonCritVulnerabilityTrait": {
+      "OneFromEachSet": [
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRangedTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    },
+    "PoisonTickRateTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRetaliateTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "RaritySuperBoost": {
+      "OneFromEachSet": [
+        [
+          "PoseidonWeaponTrait",
+          "PoseidonSecondaryTrait",
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait",
+          "PoseidonRushTrait",
+          "PoseidonShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "SlowProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusSecondaryTrait",
+          "DionysusRushTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolDionysus",
+  "LootColor": [
+    200,
+    0,
+    255,
+    255
+  ],
+  "SubtitleColor": [
+    0.6,
+    0.427,
+    0.89,
+    1.0
+  ]
+}

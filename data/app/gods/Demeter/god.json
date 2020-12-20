@@ -1,0 +1,168 @@
+{
+  "Traits": [
+    "CastNovaTrait",
+    "ZeroAmmoBonusTrait",
+    "DemeterRetaliateTrait"
+  ],
+  "LinkedUpgrades": {
+    "BlizzardOrbTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "DemeterRangedBonusTrait": {
+      "OneOf": [
+        "DemeterRangedTrait"
+      ]
+    },
+    "HomingLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ],
+        [
+          "DemeterRangedTrait"
+        ]
+      ]
+    },
+    "IceStrikeArrayTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "DionysusRangedTrait",
+          "ShieldLoadAmmo_DionysusRangedTrait"
+        ]
+      ]
+    },
+    "InstantChillKill": {
+      "OneFromEachSet": [
+        [
+          "MaximumChillBlast",
+          "ZeroAmmoBonusTrait"
+        ],
+        [
+          "MaximumChillBonusSlow",
+          "MaximumChillBlast"
+        ],
+        [
+          "ZeroAmmoBonusTrait",
+          "MaximumChillBonusSlow"
+        ]
+      ]
+    },
+    "JoltDurationTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterWeaponTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRushTrait",
+          "DemeterShoutTrait"
+        ],
+        [
+          "ZeusLightningDebuff"
+        ]
+      ]
+    },
+    "MaximumChillBlast": {
+      "OneOf": [
+        "DemeterWeaponTrait",
+        "DemeterSecondaryTrait",
+        "DemeterRushTrait",
+        "DemeterShoutTrait",
+        "CastNovaTrait"
+      ]
+    },
+    "MaximumChillBonusSlow": {
+      "OneOf": [
+        "DemeterWeaponTrait",
+        "DemeterSecondaryTrait",
+        "DemeterRushTrait",
+        "DemeterShoutTrait",
+        "CastNovaTrait"
+      ]
+    },
+    "NoLastStandRegenerationTrait": {
+      "OneFromEachSet": [
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait",
+          "AthenaRangedTrait",
+          "ShieldLoadAmmo_AthenaRangedTrait",
+          "AthenaRushTrait",
+          "AthenaShoutTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterRangedTrait",
+          "ShieldLoadAmmo_DemeterRangedTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    },
+    "SelfLaserTrait": {
+      "OneFromEachSet": [
+        [
+          "DemeterRangedTrait"
+        ],
+        [
+          "AphroditeWeaponTrait",
+          "AphroditeRushTrait",
+          "AphroditeSecondaryTrait",
+          "AphroditeShoutTrait"
+        ]
+      ]
+    },
+    "StationaryRiftTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolDemeter",
+  "LightingColor": [
+    253,
+    189,
+    49,
+    255
+  ],
+  "LootColor": [
+    96,
+    189,
+    255,
+    255
+  ],
+  "SubtitleColor": [
+    0.74,
+    0.941,
+    1.0,
+    1.0
+  ]
+}
