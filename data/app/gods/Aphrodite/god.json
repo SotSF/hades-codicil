@@ -5,6 +5,14 @@
     "ProximityArmorTrait",
     "HealthRewardBonusTrait"
   ],
+  "WeaponUpgrades": [
+    "AphroditeWeaponTrait",
+    "AphroditeRushTrait",
+    "AphroditeRangedTrait",
+    "AphroditeSecondaryTrait",
+    "AphroditeShoutTrait",
+    "ShieldLoadAmmo_AphroditeRangedTrait"
+  ],
   "LinkedUpgrades": {
     "AphroditeDurationTrait": {
       "OneOf": [

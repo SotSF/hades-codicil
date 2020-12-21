@@ -5,6 +5,14 @@
     "AthenaRetaliateTrait",
     "PreloadSuperGenerationTrait"
   ],
+  "WeaponUpgrades": [
+    "AthenaWeaponTrait",
+    "AthenaRushTrait",
+    "AthenaRangedTrait",
+    "ShieldLoadAmmo_AthenaRangedTrait",
+    "AthenaSecondaryTrait",
+    "AthenaShoutTrait"
+  ],
   "LinkedUpgrades": {
     "ArtemisReflectBuffTrait": {
       "OneFromEachSet": [

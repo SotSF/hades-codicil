@@ -2,6 +2,14 @@
   "Traits": [
     "CritBonusTrait"
   ],
+  "WeaponUpgrades": [
+    "ArtemisWeaponTrait",
+    "ArtemisRushTrait",
+    "ArtemisRangedTrait",
+    "ShieldLoadAmmo_ArtemisRangedTrait",
+    "ArtemisSecondaryTrait",
+    "ArtemisShoutTrait"
+  ],
   "LinkedUpgrades": {
     "AmmoBoltTrait": {
       "OneFromEachSet": [

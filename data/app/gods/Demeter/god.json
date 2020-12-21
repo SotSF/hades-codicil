@@ -4,6 +4,14 @@
     "ZeroAmmoBonusTrait",
     "DemeterRetaliateTrait"
   ],
+  "WeaponUpgrades": [
+    "DemeterWeaponTrait",
+    "DemeterSecondaryTrait",
+    "DemeterRushTrait",
+    "DemeterRangedTrait",
+    "ShieldLoadAmmo_DemeterRangedTrait",
+    "DemeterShoutTrait"
+  ],
   "LinkedUpgrades": {
     "BlizzardOrbTrait": {
       "OneFromEachSet": [

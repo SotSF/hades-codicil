@@ -3,7 +3,6 @@ import { BoonType } from './models/boon';
 
 function Boon(props: {boon: BoonType}) {
     const {boon} = props;
-    const {rarityData} = boon;
     const ability_name = boon.name.replace(/\s+/g, "_").replace(/'/g, '_');
     const imagename = `Boon_${boon.god}_${ability_name}.png`;
     return (

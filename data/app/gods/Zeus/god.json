@@ -5,6 +5,14 @@
     "OnWrathDamageBuffTrait",
     "PerfectDashBoltTrait"
   ],
+  "WeaponUpgrades": [
+    "ZeusWeaponTrait",
+    "ZeusRushTrait",
+    "ZeusRangedTrait",
+    "ShieldLoadAmmo_ZeusRangedTrait",
+    "ZeusSecondaryTrait",
+    "ZeusShoutTrait"
+  ],
   "LinkedUpgrades": {
     "AmmoBoltTrait": {
       "OneFromEachSet": [

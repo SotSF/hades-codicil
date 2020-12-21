@@ -4,6 +4,14 @@
     "LowHealthDefenseTrait",
     "FountainDamageBonusTrait"
   ],
+  "WeaponUpgrades": [
+    "DionysusWeaponTrait",
+    "DionysusSecondaryTrait",
+    "DionysusRushTrait",
+    "DionysusRangedTrait",
+    "ShieldLoadAmmo_DionysusRangedTrait",
+    "DionysusShoutTrait"
+  ],
   "LinkedUpgrades": {
     "DionysusAphroditeStackIncreaseTrait": {
       "OneFromEachSet": [

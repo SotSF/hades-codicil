@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Boon } from './boon';
 import { BoonType } from './models/boon'
@@ -9,11 +8,17 @@ const boonkeys = Object.keys(boons);
 
 
 function App() {
+  
   return (
-  <div>
-   {boonkeys.map( (boonname:string) => (
-    <Boon key={boonname} boon={boons[boonname]}/>
-  ))}
+  <div className="App">
+    <div className="build-area">
+      <h1>This is the place for builds</h1>
+      Imagine like, Heartbreak Strike here.
+    </div>
+    <div className="boon-area">
+      <h1>Here you could pick out boons</h1>
+      
+    </div>
   </div>
   )
 }

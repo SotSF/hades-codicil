@@ -6,6 +6,7 @@ import json
 import sjson
 
 GODS = ['Aphrodite',
+        'Ares',
         'Artemis',
         'Athena',
         'Demeter',
@@ -36,6 +37,7 @@ def write_god(god, upgrade_data):
 def reduce_god(god, god_upgrade_data):
     """ Pick a few relevant keys out of the very large game data object. """
     keep_keys = [ 'Traits',
+                  'WeaponUpgrades',
                   'LinkedUpgrades',
                   'Icon',
                   'LightingColor',

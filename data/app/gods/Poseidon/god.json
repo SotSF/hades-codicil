@@ -4,6 +4,14 @@
     "DefensiveSuperGenerationTrait",
     "EncounterStartOffenseBuffTrait"
   ],
+  "WeaponUpgrades": [
+    "PoseidonWeaponTrait",
+    "PoseidonRushTrait",
+    "PoseidonRangedTrait",
+    "ShieldLoadAmmo_PoseidonRangedTrait",
+    "PoseidonSecondaryTrait",
+    "PoseidonShoutTrait"
+  ],
   "LinkedUpgrades": {
     "ArtemisBonusProjectileTrait": {
       "OneFromEachSet": [

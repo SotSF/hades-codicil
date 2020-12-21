@@ -1,0 +1,182 @@
+{
+  "Traits": [
+    "AresRetaliateTrait",
+    "IncreasedDamageTrait",
+    "OnEnemyDeathDamageInstanceBuffTrait",
+    "LastStandDamageBonusTrait"
+  ],
+  "WeaponUpgrades": [
+    "AresWeaponTrait",
+    "AresRushTrait",
+    "AresRangedTrait",
+    "AresSecondaryTrait",
+    "AresShoutTrait",
+    "ShieldLoadAmmo_AresRangedTrait"
+  ],
+  "LinkedUpgrades": {
+    "AresAoETrait": {
+      "OneOf": [
+        "AresRangedTrait",
+        "AresRushTrait",
+        "AresShoutTrait",
+        "ShieldLoadAmmo_AresRangedTrait"
+      ]
+    },
+    "AresCursedRiftTrait": {
+      "OneOf": [
+        "AresAoETrait",
+        "AresDragTrait"
+      ]
+    },
+    "AresDragTrait": {
+      "OneOf": [
+        "AresRangedTrait",
+        "AresRushTrait",
+        "AresShoutTrait",
+        "ShieldLoadAmmo_AresRangedTrait"
+      ]
+    },
+    "AresHomingTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait"
+        ],
+        [
+          "ArtemisWeaponTrait",
+          "ArtemisSecondaryTrait",
+          "ArtemisRushTrait",
+          "ArtemisShoutTrait"
+        ]
+      ]
+    },
+    "AresLoadCurseTrait": {
+      "OneOf": [
+        "AresWeaponTrait",
+        "AresSecondaryTrait"
+      ]
+    },
+    "AresLongCurseTrait": {
+      "OneOf": [
+        "AresWeaponTrait",
+        "AresSecondaryTrait",
+        "AresRetaliateTrait"
+      ]
+    },
+    "AutoRetaliateTrait": {
+      "OneFromEachSet": [
+        [
+          "ZeusWeaponTrait",
+          "ZeusSecondaryTrait",
+          "ZeusRangedTrait",
+          "ZeusRushTrait",
+          "ZeusShoutTrait",
+          "ShieldLoadAmmo_ZeusRangedTrait"
+        ],
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRangedTrait",
+          "AresRushTrait",
+          "AresShoutTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "AresRetaliateTrait",
+          "RetaliateWeaponTrait",
+          "AthenaRetaliateTrait",
+          "AphroditeRetaliateTrait",
+          "DemeterRetaliateTrait"
+        ]
+      ]
+    },
+    "CurseSickTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AphroditeRushTrait",
+          "AphroditeRangedTrait",
+          "AphroditeWeaponTrait",
+          "AphroditeSecondaryTrait",
+          "ShieldLoadAmmo_AphroditeRangedTrait"
+        ]
+      ]
+    },
+    "PoisonTickRateTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRetaliateTrait"
+        ],
+        [
+          "DionysusWeaponTrait",
+          "DionysusRushTrait",
+          "DionysusSecondaryTrait",
+          "DionysusShoutTrait"
+        ]
+      ]
+    },
+    "PoseidonAresProjectileTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait",
+          "AresRushTrait",
+          "AresShoutTrait"
+        ],
+        [
+          "PoseidonRangedTrait",
+          "ShieldLoadAmmo_PoseidonRangedTrait"
+        ]
+      ]
+    },
+    "StationaryRiftTrait": {
+      "OneFromEachSet": [
+        [
+          "AresRangedTrait",
+          "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        [
+          "DemeterWeaponTrait",
+          "DemeterRushTrait",
+          "DemeterSecondaryTrait",
+          "DemeterShoutTrait"
+        ]
+      ]
+    },
+    "TriggerCurseTrait": {
+      "OneFromEachSet": [
+        [
+          "AresWeaponTrait",
+          "AresSecondaryTrait"
+        ],
+        [
+          "AthenaWeaponTrait",
+          "AthenaSecondaryTrait"
+        ]
+      ]
+    }
+  },
+  "Icon": "BoonSymbolAres",
+  "LightingColor": [
+    255,
+    94,
+    73,
+    255
+  ],
+  "LootColor": [
+    255,
+    20,
+    0,
+    255
+  ],
+  "SubtitleColor": [
+    0.812,
+    0.0,
+    0.0,
+    1.0
+  ]
+}
