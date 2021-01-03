@@ -9,26 +9,33 @@
     slot: "attack",                            <== regex match "Weapon|Rush|Ranged|Secondary|Shout" ?
     prereqs: [],                               <== god.json LinkedUpgrades ? 
   }
-  
 */
 
-export class BoonType {
-    id: string;
-    name: string;
-    gods: string[];
-    description: string;
-    slotted: boolean;
-    slot: "" | "attack" | "special" | "cast" | "dash" | "call" ;
-    prereqs: {OneOf?: string[], OneFromEachSet?: string[][] };
-    // Not included: required mirror traits, weird cast vs flare for Shield/Bow
+import { getCombinedNodeFlags } from "typescript";
 
-    constructor(boonData: any){
-      this.id = boonData.id;
-      this.name = boonData.name; 
-      this.gods = boonData.gods;
-      this.description = boonData.description;
-      this.slotted = boonData.slotted;
-      this.slot = boonData.slot;
-      this.prereqs = boonData.prereqs;
-    }
+export const GodNames = ["Aphrodite", "Ares", "Artemis", "Athena", "Demeter", "Dionysus", "Hermes", "Poseidon", "Zeus"] as const;
+export type GodName = typeof GodNames[number];
+
+export type Slot = "" | "attack" | "special" | "cast" | "dash" | "call";
+
+// type Slot = "Assist" | "Keepsake" | "Melee" | "Ranged" | "Rush" | "Secondary" | "Shout";
+
+interface BoonFields {
+  id: string;
+  name: string; // localized name
+  gods: Set<GodName>; // god (and maybe duo)
+  description: string; // localized description
+  slot: Slot;
+  prereqs: { OneOf?: string[], OneFromEachSet?: string[][] } // requirements (as SGG did it)
+}
+
+export interface Boon extends BoonFields {};
+export class Boon {
+  constructor(boonFields: BoonFields) {
+    Object.assign(this, boonFields);
+  }
+
+  isDuoBoon(): boolean {
+    return this.gods.size > 1;
+  }
 }
